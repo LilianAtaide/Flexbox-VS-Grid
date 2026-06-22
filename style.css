@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+main,
+header,
+section,
+aside,
+footer {
+    border: 3px solid #ccc;
+    padding: 1rem;
+        margin: 0.5rem;
+    margin: 0.5rem;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header nav{
+display: flex;
+gap: 1rem;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.content {
+    flex: 3;
+}
+
+.sidebar {
+    flex: 1;
+}
