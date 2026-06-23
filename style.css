@@ -7,7 +7,7 @@ display: grid;
 grid-template-areas:
     "header"
     "main"
-    "qfooter"
+    "footer"
     ;
 }
 
